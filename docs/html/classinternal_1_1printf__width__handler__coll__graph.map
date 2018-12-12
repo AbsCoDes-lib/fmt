@@ -1,0 +1,7 @@
+<map id="internal::printf_width_handler&lt; Char &gt;" name="internal::printf_width_handler&lt; Char &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; unsigned \&gt;\n||}" alt="" coords="5,219,123,311"/>
+<area shape="rect" id="node3" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; Result \&gt;\n||}" alt="" coords="5,35,123,127"/>
+<area shape="rect" id="node4" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; Char \&gt;\n||+ basic_format_specs()\l}" alt="" coords="147,219,306,311"/>
+<area shape="rect" id="node5" href="$structalign__spec.html" title="{align_spec\n|+ width_\l+ fill_\l+ align_\l|+ align_spec()\l+ width()\l+ fill()\l+ align()\l}" alt="" coords="160,5,264,156"/>
+<area shape="rect" id="node6" href="$structcore__format__specs.html" title="{core_format_specs\n|+ precision\l+ flags\l+ type\l|+ core_format_specs()\l+ has()\l}" alt="" coords="288,20,440,141"/>
+</map>

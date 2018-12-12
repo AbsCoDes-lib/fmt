@@ -1,0 +1,7 @@
+<map id="formatter&lt; std::tm, Char &gt;" name="formatter&lt; std::tm, Char &gt;">
+<area shape="rect" id="node2" href="$classbasic__memory__buffer.html" title="{basic_memory_buffer\l\&lt; Char \&gt;\n||+ basic_memory_buffer()\l+ basic_memory_buffer()\l+ ~basic_memory_buffer()\l+ operator=()\l+ get_allocator()\l# grow()\l&#45; deallocate()\l&#45; move()\l}" alt="" coords="191,1104,365,1299"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,540,153,617"/>
+<area shape="rect" id="node6" href="$classinternal_1_1basic__buffer.html" title="A contiguous memory buffer with an optional growing ability. " alt="" coords="117,145,289,516"/>
+<area shape="rect" id="node8" href="$classbasic__memory__buffer.html" title="A dynamically growing memory buffer for trivially copyable/constructible types with the first SIZE el..." alt="" coords="282,744,455,939"/>
+<area shape="rect" id="node5" href="$classinternal_1_1basic__buffer.html" title="{internal::basic_buffer\l\&lt; Char \&gt;\n|&#45; ptr_\l&#45; size_\l&#45; capacity_\l|+ ~basic_buffer()\l+ begin()\l+ end()\l+ size()\l+ capacity()\l+ data()\l+ data()\l+ resize()\l+ clear()\l+ reserve()\l+ push_back()\l+ append()\l+ operator[]()\l+ operator[]()\l# basic_buffer()\l# basic_buffer()\l# set()\l# grow()\l&#45; basic_buffer()\l&#45; operator=()\l}" alt="" coords="117,641,258,1041"/>
+</map>

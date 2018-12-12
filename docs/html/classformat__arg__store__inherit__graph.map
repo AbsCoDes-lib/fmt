@@ -1,0 +1,4 @@
+<map id="format_arg_store&lt; Context, Args &gt;" name="format_arg_store&lt; Context, Args &gt;">
+<area shape="rect" id="node2" href="$classformat__arg__store.html" title="{format_arg_store\&lt; buffer\l_context\&lt; FMT_CHAR(S)\&gt;\l::type, Args... \&gt;\n|+ TYPES\l&#45; data_\l&#45; NUM_ARGS\l&#45; IS_PACKED\l&#45; DATA_SIZE\l|+ format_arg_store()\l&#45; get_types()\l}" alt="" coords="6,248,185,428"/>
+<area shape="rect" id="node3" href="$structinternal_1_1checked__args.html" title="{internal::checked_args\l\&lt; S, Args \&gt;\n||+ checked_args()\l+ operator*()\l}" alt="" coords="19,477,172,584"/>
+</map>

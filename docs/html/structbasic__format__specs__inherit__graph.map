@@ -1,0 +1,9 @@
+<map id="basic_format_specs&lt; Char &gt;" name="basic_format_specs&lt; Char &gt;">
+<area shape="rect" id="node4" href="$structinternal_1_1dynamic__format__specs.html" title="{internal::dynamic_format\l_specs\&lt; Char \&gt;\n|+ width_ref\l+ precision_ref\l|}" alt="" coords="5,375,169,481"/>
+<area shape="rect" id="node6" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; char_type \&gt;\n||+ basic_format_specs()\l}" alt="" coords="193,382,352,474"/>
+<area shape="rect" id="node7" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; ParseContext::char\l_type \&gt;\n||+ basic_format_specs()\l}" alt="" coords="376,375,535,481"/>
+<area shape="rect" id="node8" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; Context::char_type \&gt;\n||+ basic_format_specs()\l}" alt="" coords="559,382,717,474"/>
+<area shape="rect" id="node2" href="$structalign__spec.html" title="{align_spec\n|+ width_\l+ fill_\l+ align_\l|+ align_spec()\l+ width()\l+ fill()\l+ align()\l}" alt="" coords="253,5,357,156"/>
+<area shape="rect" id="node3" href="$structcore__format__specs.html" title="{core_format_specs\n|+ precision\l+ flags\l+ type\l|+ core_format_specs()\l+ has()\l}" alt="" coords="381,20,533,141"/>
+<area shape="rect" id="node5" href="$structinternal_1_1dynamic__format__specs.html" title="{internal::dynamic_format\l_specs\&lt; char_type \&gt;\n|+ width_ref\l+ precision_ref\l|}" alt="" coords="108,544,272,651"/>
+</map>

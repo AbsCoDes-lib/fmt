@@ -1,0 +1,5 @@
+<map id="arg_formatter&lt; Range &gt;" name="arg_formatter&lt; Range &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; internal::arg_formatter\l_base\&lt; Range \&gt;::iterator \&gt;\n||}" alt="" coords="5,277,184,384"/>
+<area shape="rect" id="node3" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; Result \&gt;\n||}" alt="" coords="36,5,153,97"/>
+<area shape="rect" id="node4" href="$classinternal_1_1arg__formatter__base.html" title="{internal::arg_formatter\l_base\&lt; Range \&gt;\n|+ iterator\l&#45; writer_\l&#45; specs_\l|+ arg_formatter_base()\l+ operator()()\l+ operator()()\l+ operator()()\l+ operator()()\l+ operator()()\l+ operator()()\l# writer()\l# spec()\l# out()\l# write()\l# write()\l&#45; write_char()\l&#45; write_pointer()\l}" alt="" coords="209,175,362,487"/>
+</map>

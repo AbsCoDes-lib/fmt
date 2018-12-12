@@ -1,0 +1,15 @@
+<map id="internal::dynamic_specs_handler&lt; ParseContext &gt;" name="internal::dynamic_specs_handler&lt; ParseContext &gt;">
+<area shape="rect" id="node2" href="$classinternal_1_1specs__setter.html" title="{internal::specs_setter\l\&lt; ParseContext::char_type \&gt;\n||+ specs_setter()\l+ specs_setter()\l+ on_align()\l+ on_fill()\l+ on_plus()\l+ on_minus()\l+ on_space()\l+ on_hash()\l+ on_zero()\l+ on_width()\l+ on_precision()\l+ end_precision()\l+ on_type()\l}" alt="" coords="167,961,357,1229"/>
+<area shape="rect" id="node3" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; ParseContext::char\l_type \&gt;\n||+ basic_format_specs()\l}" alt="" coords="5,697,164,803"/>
+<area shape="rect" id="node4" href="$structalign__spec.html" title="{align_spec\n|+ width_\l+ fill_\l+ align_\l|+ align_spec()\l+ width()\l+ fill()\l+ align()\l}" alt="" coords="299,145,403,296"/>
+<area shape="rect" id="node6" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; Char \&gt;\n||+ basic_format_specs()\l}" alt="" coords="348,403,507,495"/>
+<area shape="rect" id="node9" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; char_type \&gt;\n||+ basic_format_specs()\l}" alt="" coords="548,704,707,796"/>
+<area shape="rect" id="node5" href="$structcore__format__specs.html" title="{core_format_specs\n|+ precision\l+ flags\l+ type\l|+ core_format_specs()\l+ has()\l}" alt="" coords="427,160,579,281"/>
+<area shape="rect" id="node15" href="$structinternal_1_1dynamic__format__specs.html" title="{internal::dynamic_format\l_specs\&lt; Char \&gt;\n|+ width_ref\l+ precision_ref\l|}" alt="" coords="360,697,524,803"/>
+<area shape="rect" id="node7" href="$classinternal_1_1specs__setter.html" title="{internal::specs_setter\l\&lt; Char \&gt;\n|# specs_\l|+ specs_setter()\l+ specs_setter()\l+ on_align()\l+ on_fill()\l+ on_plus()\l+ on_minus()\l+ on_space()\l+ on_hash()\l+ on_zero()\l+ on_width()\l+ on_precision()\l+ end_precision()\l+ on_type()\l}" alt="" coords="189,616,335,884"/>
+<area shape="rect" id="node8" href="$structinternal_1_1dynamic__format__specs.html" title="{internal::dynamic_format\l_specs\&lt; char_type \&gt;\n||}" alt="" coords="396,1049,560,1141"/>
+<area shape="rect" id="node10" href="$structinternal_1_1arg__ref.html" title="{internal::arg_ref\&lt;\l char_type \&gt;\n|+ kind\l+ index\l+ @12\l|+ arg_ref()\l+ arg_ref()\l+ arg_ref()\l+ operator=()\l}" alt="" coords="731,667,849,833"/>
+<area shape="rect" id="node11" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; char_type \&gt;\n|+ value\l+ size\l|}" alt="" coords="840,395,980,502"/>
+<area shape="rect" id="node12" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; Char \&gt;\n|+ size\l|}" alt="" coords="840,175,980,267"/>
+<area shape="rect" id="node14" href="$structinternal_1_1arg__ref.html" title="{internal::arg_ref\&lt;\l Char \&gt;\n|+ kind\l+ index\l+ name\l+ @12\l|+ arg_ref()\l+ arg_ref()\l+ arg_ref()\l+ operator=()\l}" alt="" coords="697,359,816,539"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="internal::checked_args&lt; S, Args &gt;" name="internal::checked_args&lt; S, Args &gt;">
+<area shape="rect" id="node2" href="$classformat__arg__store.html" title="{format_arg_store\&lt; buffer\l_context\&lt; FMT_CHAR(S)\&gt;\l::type, Args... \&gt;\n|+ TYPES\l&#45; data_\l&#45; NUM_ARGS\l&#45; IS_PACKED\l&#45; DATA_SIZE\l|+ format_arg_store()\l&#45; get_types()\l}" alt="" coords="6,248,185,428"/>
+<area shape="rect" id="node3" href="$classformat__arg__store.html" title="An array of references to arguments. " alt="" coords="5,5,185,171"/>
+</map>

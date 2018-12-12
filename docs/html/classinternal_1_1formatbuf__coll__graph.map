@@ -1,0 +1,4 @@
+<map id="internal::formatbuf&lt; Char &gt;" name="internal::formatbuf&lt; Char &gt;">
+<area shape="rect" id="node3" href="$classinternal_1_1basic__buffer.html" title="{internal::basic_buffer\l\&lt; Char \&gt;\n|&#45; ptr_\l&#45; size_\l&#45; capacity_\l|+ ~basic_buffer()\l+ begin()\l+ end()\l+ size()\l+ capacity()\l+ data()\l+ data()\l+ resize()\l+ clear()\l+ reserve()\l+ push_back()\l+ append()\l+ operator[]()\l+ operator[]()\l# basic_buffer()\l# basic_buffer()\l# set()\l# grow()\l&#45; basic_buffer()\l&#45; operator=()\l}" alt="" coords="173,579,314,979"/>
+<area shape="rect" id="node4" href="$classinternal_1_1basic__buffer.html" title="A contiguous memory buffer with an optional growing ability. " alt="" coords="157,145,329,516"/>
+</map>

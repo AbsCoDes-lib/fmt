@@ -1,0 +1,6 @@
+<map id="basic_string_view&lt; Char &gt;" name="basic_string_view&lt; Char &gt;">
+<area shape="rect" id="node2" href="$classbasic__string__view.html" title="{basic_string_view\&lt;\l char_type \&gt;\n|&#45; data_\l&#45; size_\l|+ basic_string_view()\l+ basic_string_view()\l+ basic_string_view()\l+ basic_string_view()\l+ data()\l+ size()\l+ begin()\l+ end()\l+ remove_prefix()\l+ compare()\l}" alt="" coords="5,307,148,545"/>
+<area shape="rect" id="node3" href="$classbasic__string__view.html" title="{basic_string_view\&lt;\l char8_t \&gt;\n|&#45; data_\l&#45; size_\l|+ basic_string_view()\l+ basic_string_view()\l+ basic_string_view()\l+ basic_string_view()\l+ data()\l+ size()\l+ begin()\l+ end()\l+ remove_prefix()\l+ compare()\l}" alt="" coords="172,307,315,545"/>
+<area shape="rect" id="node5" href="$classbasic__string__view.html" title="{basic_string_view\&lt;\l char \&gt;\n|&#45; data_\l&#45; size_\l|+ basic_string_view()\l+ basic_string_view()\l+ basic_string_view()\l+ basic_string_view()\l+ data()\l+ size()\l+ begin()\l+ end()\l+ remove_prefix()\l+ compare()\l}" alt="" coords="339,307,481,545"/>
+<area shape="rect" id="node4" href="$classu8string__view.html" title="{u8string_view\n||+ u8string_view()\l+ u8string_view()\l}" alt="" coords="184,595,303,687"/>
+</map>

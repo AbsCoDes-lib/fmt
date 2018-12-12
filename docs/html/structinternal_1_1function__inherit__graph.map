@@ -1,0 +1,18 @@
+<map id="internal::function&lt; Result &gt;" name="internal::function&lt; Result &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; unsigned long long \&gt;\n||}" alt="" coords="200,182,355,274"/>
+<area shape="rect" id="node5" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; int \&gt;\n||}" alt="" coords="508,182,625,274"/>
+<area shape="rect" id="node7" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; void \&gt;\n||}" alt="" coords="756,182,873,274"/>
+<area shape="rect" id="node10" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; internal::arg_formatter\l_base\&lt; Range \&gt;::iterator \&gt;\n||}" alt="" coords="907,175,1085,281"/>
+<area shape="rect" id="node13" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; unsigned \&gt;\n||}" alt="" coords="1203,182,1320,274"/>
+<area shape="rect" id="node15" href="$structinternal_1_1function.html" title="{internal::function\l\&lt; bool \&gt;\n||}" alt="" coords="1485,182,1603,274"/>
+<area shape="rect" id="node3" href="$classinternal_1_1precision__checker.html" title="{internal::precision\l_checker\&lt; ErrorHandler \&gt;\n|&#45; handler_\l|+ precision_checker()\l+ operator()()\l+ operator()()\l}" alt="" coords="5,397,176,518"/>
+<area shape="rect" id="node4" href="$classinternal_1_1width__checker.html" title="{internal::width_checker\l\&lt; ErrorHandler \&gt;\n|&#45; handler_\l|+ width_checker()\l+ operator()()\l+ operator()()\l}" alt="" coords="200,397,355,518"/>
+<area shape="rect" id="node6" href="$classinternal_1_1printf__precision__handler.html" title="{internal::printf_precision\l_handler\n||+ operator()()\l+ operator()()\l}" alt="" coords="379,404,538,511"/>
+<area shape="rect" id="node8" href="$classinternal_1_1arg__converter.html" title="{internal::arg_converter\l\&lt; T, Context \&gt;\n|&#45; arg_\l&#45; type_\l|+ arg_converter()\l+ operator()()\l+ operator()()\l+ operator()()\l}" alt="" coords="563,382,712,533"/>
+<area shape="rect" id="node9" href="$classinternal_1_1char__converter.html" title="{internal::char_converter\l\&lt; Context \&gt;\n|&#45; arg_\l|+ char_converter()\l+ operator()()\l+ operator()()\l}" alt="" coords="737,397,893,518"/>
+<area shape="rect" id="node11" href="$classarg__formatter.html" title="The default argument formatter. " alt="" coords="917,404,1075,511"/>
+<area shape="rect" id="node12" href="$classprintf__arg__formatter.html" title="The printf argument formatter. " alt="" coords="1099,331,1253,584"/>
+<area shape="rect" id="node14" href="$classinternal_1_1printf__width__handler.html" title="{internal::printf_width\l_handler\&lt; Char \&gt;\n|&#45; spec_\l|+ printf_width_handler()\l+ operator()()\l+ operator()()\l}" alt="" coords="1277,397,1433,518"/>
+<area shape="rect" id="node16" href="$classinternal_1_1custom__formatter.html" title="{internal::custom_formatter\l\&lt; Char, Context \&gt;\n|&#45; ctx_\l|+ custom_formatter()\l+ operator()()\l+ operator()()\l}" alt="" coords="1457,397,1631,518"/>
+<area shape="rect" id="node17" href="$classinternal_1_1is__zero__int.html" title="{internal::is_zero_int\n||+ operator()()\l+ operator()()\l}" alt="" coords="1655,411,1790,503"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="internal::custom_value&lt; Context &gt;" name="internal::custom_value&lt; Context &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1custom__value.html" title="{internal::custom_value\l\&lt; wformat_context \&gt;\n|+ value\l+ format\l|}" alt="" coords="5,197,156,303"/>
+<area shape="rect" id="node3" href="$structinternal_1_1custom__value.html" title="{internal::custom_value\l\&lt; basic_format_context\l\&lt; OutputIt, Char \&gt; \&gt;\n|+ value\l+ format\l|}" alt="" coords="180,189,339,311"/>
+<area shape="rect" id="node4" href="$structinternal_1_1custom__value.html" title="{internal::custom_value\l\&lt; format_context \&gt;\n|+ value\l+ format\l|}" alt="" coords="363,197,513,303"/>
+<area shape="rect" id="node5" href="$structinternal_1_1custom__value.html" title="{internal::custom_value\l\&lt; basic_printf_context\l\&lt; OutputIt, Char, ArgFormatter \&gt; \&gt;\n|+ value\l+ format\l|}" alt="" coords="537,189,760,311"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="internal::dynamic_format_specs&lt; Char &gt;" name="internal::dynamic_format_specs&lt; Char &gt;">
+<area shape="rect" id="node5" href="$structinternal_1_1dynamic__format__specs.html" title="{internal::dynamic_format\l_specs\&lt; char_type \&gt;\n|+ width_ref\l+ precision_ref\l|}" alt="" coords="51,516,215,623"/>
+<area shape="rect" id="node2" href="$structbasic__format__specs.html" title="{basic_format_specs\l\&lt; Char \&gt;\n||+ basic_format_specs()\l}" alt="" coords="54,205,213,297"/>
+<area shape="rect" id="node3" href="$structalign__spec.html" title="{align_spec\n|+ width_\l+ fill_\l+ align_\l|+ align_spec()\l+ width()\l+ fill()\l+ align()\l}" alt="" coords="5,5,109,156"/>
+<area shape="rect" id="node4" href="$structcore__format__specs.html" title="{core_format_specs\n|+ precision\l+ flags\l+ type\l|+ core_format_specs()\l+ has()\l}" alt="" coords="133,20,285,141"/>
+</map>

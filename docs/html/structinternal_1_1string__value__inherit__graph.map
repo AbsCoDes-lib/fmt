@@ -1,0 +1,5 @@
+<map id="internal::string_value&lt; Char &gt;" name="internal::string_value&lt; Char &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; char_type \&gt;\n|+ value\l+ size\l|}" alt="" coords="5,175,145,281"/>
+<area shape="rect" id="node3" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; signed char \&gt;\n|+ value\l+ size\l|}" alt="" coords="169,175,309,281"/>
+<area shape="rect" id="node4" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; unsigned char \&gt;\n|+ value\l+ size\l|}" alt="" coords="333,175,473,281"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="formatter&lt; T, Char, Enable &gt;" name="formatter&lt; T, Char, Enable &gt;">
+<area shape="rect" id="node2" href="$structformatter.html" title="{formatter\&lt; std::iterator\l_traits\&lt; It \&gt;::value_type,\l Char \&gt;\n||+ parse()\l+ format()\l}" alt="" coords="5,189,168,311"/>
+<area shape="rect" id="node4" href="$structformatter.html" title="{formatter\&lt; basic_string\l_view\&lt; Char \&gt;, Char \&gt;\n||+ parse()\l+ format()\l}" alt="" coords="201,197,356,303"/>
+<area shape="rect" id="node3" href="$structformatter_3_01arg__join_3_01_it_00_01_char_01_4_00_01_char_01_4.html" title="{formatter\&lt; arg_join\l\&lt; It, Char \&gt;, Char \&gt;\n||+ format()\l}" alt="" coords="14,397,149,489"/>
+<area shape="rect" id="node5" href="$structformatter_3_01_t_00_01_char_00_01typename_01std_1_1enable__if_3_01internal_1_1is__streamabdfe791f5d6e0a8acd43f884d0761b8af.html" title="{formatter\&lt; T, Char,\l typename std::enable\l_if\&lt; internal::is_streamable\l\&lt; T, Char \&gt;::value &amp;&amp;!internal\l::format_type\&lt; typename buffer\l_context\&lt; Char \&gt;::type, T \&gt;::value\l \&gt;::type \&gt;\n||+ format()\l}" alt="" coords="173,360,393,525"/>
+</map>

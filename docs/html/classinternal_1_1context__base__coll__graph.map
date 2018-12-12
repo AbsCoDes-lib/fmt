@@ -1,0 +1,6 @@
+<map id="internal::context_base&lt; OutputIt, Context, Char &gt;" name="internal::context_base&lt; OutputIt, Context, Char &gt;">
+<area shape="rect" id="node2" href="$classinternal_1_1locale__ref.html" title="{internal::locale_ref\n|&#45; locale_\l|+ locale_ref()\l+ locale_ref()\l+ get()\l}" alt="" coords="5,477,132,584"/>
+<area shape="rect" id="node4" href="$classbasic__parse__context.html" title="{basic_parse_context\l\&lt; Char \&gt;\n|&#45; format_str_\l&#45; next_arg_id_\l|+ basic_parse_context()\l+ begin()\l+ end()\l+ advance_to()\l+ next_arg_id()\l+ check_arg_id()\l+ check_arg_id()\l+ on_error()\l+ error_handler()\l}" alt="" coords="249,419,411,643"/>
+<area shape="rect" id="node5" href="$structinternal_1_1error__handler.html" title="{internal::error_handler\n||+ error_handler()\l+ error_handler()\l+ on_error()\l}" alt="" coords="201,191,347,297"/>
+<area shape="rect" id="node6" href="$classbasic__parse__context.html" title="{basic_parse_context\l\&lt; Char, ErrorHandler \&gt;\n|&#45; format_str_\l&#45; next_arg_id_\l|+ basic_parse_context()\l+ begin()\l+ end()\l+ advance_to()\l+ next_arg_id()\l+ check_arg_id()\l+ check_arg_id()\l+ on_error()\l+ error_handler()\l}" alt="" coords="371,132,534,356"/>
+</map>

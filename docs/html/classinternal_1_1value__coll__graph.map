@@ -1,0 +1,6 @@
+<map id="internal::value&lt; Context &gt;" name="internal::value&lt; Context &gt;">
+<area shape="rect" id="node2" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; unsigned char \&gt;\n|+ value\l+ size\l|}" alt="" coords="5,300,145,407"/>
+<area shape="rect" id="node3" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; Char \&gt;\n|+ size\l|}" alt="" coords="169,145,309,237"/>
+<area shape="rect" id="node5" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; signed char \&gt;\n|+ value\l+ size\l|}" alt="" coords="169,300,309,407"/>
+<area shape="rect" id="node6" href="$structinternal_1_1string__value.html" title="{internal::string_value\l\&lt; char_type \&gt;\n|+ value\l+ size\l|}" alt="" coords="333,300,473,407"/>
+</map>
