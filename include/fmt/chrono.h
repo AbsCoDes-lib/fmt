@@ -217,17 +217,17 @@ inline int to_int(Int value) {
   return static_cast<int>(value);
 }
 
-template <typename FormatContext>
+template <typename FormatContext, typename OutputIt>
 struct chrono_formatter {
   FormatContext &context;
-  typename FormatContext::iterator out;
+  OutputIt out;
   std::chrono::seconds s;
   std::chrono::milliseconds ms;
 
   typedef typename FormatContext::char_type char_type;
 
-  explicit chrono_formatter(FormatContext &ctx)
-    : context(ctx), out(ctx.out()) {}
+  explicit chrono_formatter(FormatContext &ctx, OutputIt o)
+    : context(ctx), out(o) {}
 
   int hour() const { return to_int((s.count() / 3600) % 24); }
 
@@ -250,7 +250,7 @@ struct chrono_formatter {
   void write(int value, int width) {
     typedef typename int_traits<int>::main_type main_type;
     main_type n = to_unsigned(value);
-    int num_digits = static_cast<int>(internal::count_digits(n));
+    int num_digits = internal::count_digits(n);
     if (width > num_digits)
       out = std::fill_n(out, width - num_digits, '0');
     out = format_decimal<char_type>(out, n, num_digits);
@@ -370,14 +370,52 @@ template <> FMT_CONSTEXPR const char *get_units<std::ratio<3600>>() {
 
 template <typename Rep, typename Period, typename Char>
 struct formatter<std::chrono::duration<Rep, Period>, Char> {
+ private:
+  align_spec spec;
+  internal::arg_ref<Char> width_ref;
   mutable basic_string_view<Char> format_str;
   typedef std::chrono::duration<Rep, Period> duration;
+
+  struct spec_handler {
+    formatter &f;
+    basic_parse_context<Char> &context;
+
+    typedef internal::arg_ref<Char> arg_ref_type;
+
+    template <typename Id>
+    FMT_CONSTEXPR arg_ref_type make_arg_ref(Id arg_id) {
+      context.check_arg_id(arg_id);
+      return arg_ref_type(arg_id);
+    }
+
+    FMT_CONSTEXPR arg_ref_type make_arg_ref(internal::auto_id) {
+      return arg_ref_type(context.next_arg_id());
+    }
+
+    void on_error(const char *msg) { throw format_error(msg); }
+    void on_fill(Char fill) { f.spec.fill_ = fill; }
+    void on_align(alignment align) { f.spec.align_ = align; }
+    void on_width(unsigned width) { f.spec.width_ = width; }
+
+    template <typename Id>
+    void on_dynamic_width(Id arg_id) {
+      f.width_ref = make_arg_ref(arg_id);
+    }
+  };
+
+ public:
+  formatter() : spec() {}
 
   FMT_CONSTEXPR auto parse(basic_parse_context<Char> &ctx)
       -> decltype(ctx.begin()) {
     auto begin = ctx.begin(), end = ctx.end();
+    if (begin == end) return begin;
+    spec_handler handler{*this, ctx};
+    begin = internal::parse_align(begin, end, handler);
+    if (begin == end) return begin;
+    begin = internal::parse_width(begin, end, handler);
     end = parse_chrono_format(begin, end, internal::chrono_format_checker());
-    format_str = basic_string_view<Char>(&*begin, end - begin);
+    format_str = basic_string_view<Char>(&*begin, internal::to_unsigned(end - begin));
     return end;
   }
 
@@ -385,19 +423,27 @@ struct formatter<std::chrono::duration<Rep, Period>, Char> {
   auto format(const duration &d, FormatContext &ctx)
       -> decltype(ctx.out()) {
     auto begin = format_str.begin(), end = format_str.end();
+    memory_buffer buf;
+    typedef output_range<decltype(ctx.out()), Char> range;
+    basic_writer<range> w(range(ctx.out()));
     if (begin == end || *begin == '}') {
       if (const char *unit = get_units<Period>())
-        return format_to(ctx.out(), "{}{}", d.count(), unit);
-      if (Period::den == 1)
-        return format_to(ctx.out(), "{}[{}s]", d.count(), Period::num);
-      return format_to(ctx.out(), "{}[{}/{}s]",
-                       d.count(), Period::num, Period::den);
+        format_to(buf, "{}{}", d.count(), unit);
+      else if (Period::den == 1)
+        format_to(buf, "{}[{}]s", d.count(), Period::num);
+      else
+        format_to(buf, "{}[{}/{}]s", d.count(), Period::num, Period::den);
+      internal::handle_dynamic_spec<internal::width_checker>(
+        spec.width_, width_ref, ctx);
+    } else {
+      auto out = std::back_inserter(buf);
+      internal::chrono_formatter<FormatContext, decltype(out)> f(ctx, out);
+      f.s = std::chrono::duration_cast<std::chrono::seconds>(d);
+      f.ms = std::chrono::duration_cast<std::chrono::milliseconds>(d - f.s);
+      parse_chrono_format(begin, end, f);
     }
-    internal::chrono_formatter<FormatContext> f(ctx);
-    f.s = std::chrono::duration_cast<std::chrono::seconds>(d);
-    f.ms = std::chrono::duration_cast<std::chrono::milliseconds>(d - f.s);
-    parse_chrono_format(begin, end, f);
-    return f.out;
+    w.write(buf.data(), buf.size(), spec);
+    return w.out();
   }
 };
 
