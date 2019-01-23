@@ -101,7 +101,8 @@ Collaboration diagram for text_style:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtext__style__coll__graph.png" border="0" usemap="#text__style_coll__map" alt="Collaboration graph"/></div>
 <map name="text__style_coll__map" id="text__style_coll__map">
-<area shape="rect" id="node2" href="structrgb.html" title="{rgb\n|+ r\l+ g\l+ b\l|+ rgb()\l+ rgb()\l+ rgb()\l+ rgb()\l}" alt="" coords="54,5,114,156"/>
+<area shape="rect" id="node2" href="structinternal_1_1color__type.html" title="{internal::color_type\n|+ is_rgb\l|+ color_type()\l+ color_type()\l+ color_type()\l+ color_type()\l}" alt="" coords="18,175,150,296"/>
+<area shape="rect" id="node3" href="unioninternal_1_1color__type_1_1color__union.html" title="{internal::color_type\l::color_union\n|+ term_color\l+ rgb_color\l|}" alt="" coords="18,5,150,112"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -110,12 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a67f289d8275892ad458966e9d44cd246"><td class="memItemLeft" align="right" valign="top"><a id="a67f289d8275892ad458966e9d44cd246"></a>
 FMT_CONSTEXPR&#160;</td><td class="memItemRight" valign="bottom"><b>text_style</b> (emphasis em=emphasis()) FMT_NOEXCEPT</td></tr>
 <tr class="separator:a67f289d8275892ad458966e9d44cd246"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c9d222e499b6bac0dd600252bd4abc4"><td class="memItemLeft" align="right" valign="top"><a id="a6c9d222e499b6bac0dd600252bd4abc4"></a>
-FMT_CONSTEXPR_DECL <a class="el" href="classtext__style.html">text_style</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator|=</b> (const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs) FMT_NOEXCEPT</td></tr>
-<tr class="separator:a6c9d222e499b6bac0dd600252bd4abc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac2798638690cbd637059553b605d0b6"><td class="memItemLeft" align="right" valign="top"><a id="aac2798638690cbd637059553b605d0b6"></a>
-FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator &amp;=</b> (const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs) FMT_NOEXCEPT</td></tr>
-<tr class="separator:aac2798638690cbd637059553b605d0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa488412bf58f9a9760b421dea9aeaa9"><td class="memItemLeft" align="right" valign="top"><a id="aaa488412bf58f9a9760b421dea9aeaa9"></a>
+FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator|=</b> (const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs)</td></tr>
+<tr class="separator:aaa488412bf58f9a9760b421dea9aeaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347bf58ff73936da8f35bbb4f595975b"><td class="memItemLeft" align="right" valign="top"><a id="a347bf58ff73936da8f35bbb4f595975b"></a>
+FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator &amp;=</b> (const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs)</td></tr>
+<tr class="separator:a347bf58ff73936da8f35bbb4f595975b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad605ce62796a99d87f0e9744617cf402"><td class="memItemLeft" align="right" valign="top"><a id="ad605ce62796a99d87f0e9744617cf402"></a>
 FMT_CONSTEXPR bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_foreground</b> () const FMT_NOEXCEPT</td></tr>
 <tr class="separator:ad605ce62796a99d87f0e9744617cf402"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,30 +126,30 @@ FMT_CONSTEXPR bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_bac
 <tr class="memitem:a57443deabb81d0e013d81813fc4d55cb"><td class="memItemLeft" align="right" valign="top"><a id="a57443deabb81d0e013d81813fc4d55cb"></a>
 FMT_CONSTEXPR bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_emphasis</b> () const FMT_NOEXCEPT</td></tr>
 <tr class="separator:a57443deabb81d0e013d81813fc4d55cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b1659c2a9a0457ccb17aa4a9321c51b"><td class="memItemLeft" align="right" valign="top"><a id="a1b1659c2a9a0457ccb17aa4a9321c51b"></a>
-FMT_CONSTEXPR <a class="el" href="structrgb.html">rgb</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_foreground</b> () const FMT_NOEXCEPT</td></tr>
-<tr class="separator:a1b1659c2a9a0457ccb17aa4a9321c51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1956f503defbaea997c18371779c8cc"><td class="memItemLeft" align="right" valign="top"><a id="ab1956f503defbaea997c18371779c8cc"></a>
-FMT_CONSTEXPR <a class="el" href="structrgb.html">rgb</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_background</b> () const FMT_NOEXCEPT</td></tr>
-<tr class="separator:ab1956f503defbaea997c18371779c8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695368429b582c3fef9b28e138beec4a"><td class="memItemLeft" align="right" valign="top"><a id="a695368429b582c3fef9b28e138beec4a"></a>
+FMT_CONSTEXPR <a class="el" href="structinternal_1_1color__type.html">internal::color_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_foreground</b> () const FMT_NOEXCEPT</td></tr>
+<tr class="separator:a695368429b582c3fef9b28e138beec4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00fb4a1cc65844bc819f71a80050181f"><td class="memItemLeft" align="right" valign="top"><a id="a00fb4a1cc65844bc819f71a80050181f"></a>
+FMT_CONSTEXPR <a class="el" href="structinternal_1_1color__type.html">internal::color_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_background</b> () const FMT_NOEXCEPT</td></tr>
+<tr class="separator:a00fb4a1cc65844bc819f71a80050181f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecbbaaf438871b55905c4beaea7318b5"><td class="memItemLeft" align="right" valign="top"><a id="aecbbaaf438871b55905c4beaea7318b5"></a>
 FMT_CONSTEXPR emphasis&#160;</td><td class="memItemRight" valign="bottom"><b>get_emphasis</b> () const FMT_NOEXCEPT</td></tr>
 <tr class="separator:aecbbaaf438871b55905c4beaea7318b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac0386783f84c1bc8ba850cfbe7328ab4"><td class="memItemLeft" align="right" valign="top"><a id="ac0386783f84c1bc8ba850cfbe7328ab4"></a>
-FMT_CONSTEXPR&#160;</td><td class="memItemRight" valign="bottom"><b>text_style</b> (bool is_foreground, <a class="el" href="structrgb.html">rgb</a> text_color) FMT_NOEXCEPT</td></tr>
-<tr class="separator:ac0386783f84c1bc8ba850cfbe7328ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06cd4c5b45e7933c88781c513e8b9609"><td class="memItemLeft" align="right" valign="top"><a id="a06cd4c5b45e7933c88781c513e8b9609"></a>
+FMT_CONSTEXPR&#160;</td><td class="memItemRight" valign="bottom"><b>text_style</b> (bool is_foreground, <a class="el" href="structinternal_1_1color__type.html">internal::color_type</a> text_color) FMT_NOEXCEPT</td></tr>
+<tr class="separator:a06cd4c5b45e7933c88781c513e8b9609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2fa3a980260e2b4999e3b01201466e07"><td class="memItemLeft" align="right" valign="top"><a id="a2fa3a980260e2b4999e3b01201466e07"></a>
-<a class="el" href="structrgb.html">rgb</a>&#160;</td><td class="memItemRight" valign="bottom"><b>foreground_color</b></td></tr>
-<tr class="separator:a2fa3a980260e2b4999e3b01201466e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2638b1157392a4646a7d18ba7f69c6d6"><td class="memItemLeft" align="right" valign="top"><a id="a2638b1157392a4646a7d18ba7f69c6d6"></a>
-<a class="el" href="structrgb.html">rgb</a>&#160;</td><td class="memItemRight" valign="bottom"><b>background_color</b></td></tr>
-<tr class="separator:a2638b1157392a4646a7d18ba7f69c6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46d5d58237987ab398bfe3981eb87ba5"><td class="memItemLeft" align="right" valign="top"><a id="a46d5d58237987ab398bfe3981eb87ba5"></a>
+<a class="el" href="structinternal_1_1color__type.html">internal::color_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>foreground_color</b></td></tr>
+<tr class="separator:a46d5d58237987ab398bfe3981eb87ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ae954d89673c6020951c377ac08751d"><td class="memItemLeft" align="right" valign="top"><a id="a2ae954d89673c6020951c377ac08751d"></a>
+<a class="el" href="structinternal_1_1color__type.html">internal::color_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>background_color</b></td></tr>
+<tr class="separator:a2ae954d89673c6020951c377ac08751d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a699b39d3c16dd851f656cf7bfe89a2"><td class="memItemLeft" align="right" valign="top"><a id="a8a699b39d3c16dd851f656cf7bfe89a2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>set_foreground_color</b></td></tr>
 <tr class="separator:a8a699b39d3c16dd851f656cf7bfe89a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,18 +162,18 @@ emphasis&#160;</td><td class="memItemRight" valign="bottom"><b>ems</b></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a6e0869efa6db0fe055352e54c46ca7df"><td class="memItemLeft" align="right" valign="top"><a id="a6e0869efa6db0fe055352e54c46ca7df"></a>
-FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator|</b> (<a class="el" href="classtext__style.html">text_style</a> lhs, const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs) FMT_NOEXCEPT</td></tr>
-<tr class="separator:a6e0869efa6db0fe055352e54c46ca7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16ce6199258f76e0391be0455190ccd3"><td class="memItemLeft" align="right" valign="top"><a id="a16ce6199258f76e0391be0455190ccd3"></a>
-FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator &amp;</b> (<a class="el" href="classtext__style.html">text_style</a> lhs, const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs) FMT_NOEXCEPT</td></tr>
-<tr class="separator:a16ce6199258f76e0391be0455190ccd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f1ba7d2f95e64c2fb947f530910d00b"><td class="memItemLeft" align="right" valign="top"><a id="a3f1ba7d2f95e64c2fb947f530910d00b"></a>
-FMT_CONSTEXPR_DECL <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fg</b> (<a class="el" href="structrgb.html">rgb</a> foreground) FMT_NOEXCEPT</td></tr>
-<tr class="separator:a3f1ba7d2f95e64c2fb947f530910d00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aa832ea0ea6c3ecd642f459bd28c266"><td class="memItemLeft" align="right" valign="top"><a id="a5aa832ea0ea6c3ecd642f459bd28c266"></a>
-FMT_CONSTEXPR_DECL <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bg</b> (<a class="el" href="structrgb.html">rgb</a> background) FMT_NOEXCEPT</td></tr>
-<tr class="separator:a5aa832ea0ea6c3ecd642f459bd28c266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35023459e415ef79bccff971618bfc1f"><td class="memItemLeft" align="right" valign="top"><a id="a35023459e415ef79bccff971618bfc1f"></a>
+FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator|</b> (<a class="el" href="classtext__style.html">text_style</a> lhs, const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs)</td></tr>
+<tr class="separator:a35023459e415ef79bccff971618bfc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91686b3587b1ed9a9066210ac5efa0d"><td class="memItemLeft" align="right" valign="top"><a id="ad91686b3587b1ed9a9066210ac5efa0d"></a>
+FMT_CONSTEXPR <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator &amp;</b> (<a class="el" href="classtext__style.html">text_style</a> lhs, const <a class="el" href="classtext__style.html">text_style</a> &amp;rhs)</td></tr>
+<tr class="separator:ad91686b3587b1ed9a9066210ac5efa0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4da2dafd6afe1360a856a03db2eddd"><td class="memItemLeft" align="right" valign="top"><a id="aba4da2dafd6afe1360a856a03db2eddd"></a>
+FMT_CONSTEXPR_DECL <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fg</b> (<a class="el" href="structinternal_1_1color__type.html">internal::color_type</a> foreground) FMT_NOEXCEPT</td></tr>
+<tr class="separator:aba4da2dafd6afe1360a856a03db2eddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eec86de8721ad96ef9b700d47f0d1e1"><td class="memItemLeft" align="right" valign="top"><a id="a7eec86de8721ad96ef9b700d47f0d1e1"></a>
+FMT_CONSTEXPR_DECL <a class="el" href="classtext__style.html">text_style</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bg</b> (<a class="el" href="structinternal_1_1color__type.html">internal::color_type</a> background) FMT_NOEXCEPT</td></tr>
+<tr class="separator:a7eec86de8721ad96ef9b700d47f0d1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/fmt/<a class="el" href="color_8h_source.html">color.h</a></li>

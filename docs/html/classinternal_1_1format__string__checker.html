@@ -87,7 +87,6 @@ $(document).ready(function(){initNavTree('classinternal_1_1format__string__check
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -106,12 +105,6 @@ Collaboration diagram for internal::format_string_checker&lt; Char, ErrorHandler
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a414053b35048414bb7d48a313383d976"><td class="memItemLeft" align="right" valign="top"><a id="a414053b35048414bb7d48a313383d976"></a>
-typedef <a class="el" href="classinternal_1_1null__terminating__iterator.html">internal::null_terminating_iterator</a>&lt; Char &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b></td></tr>
-<tr class="separator:a414053b35048414bb7d48a313383d976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ace9b5d14d17800788cb39fcfe900712d"><td class="memItemLeft" align="right" valign="top"><a id="ace9b5d14d17800788cb39fcfe900712d"></a>
@@ -132,9 +125,9 @@ FMT_CONSTEXPR void&#160;</td><td class="memItemRight" valign="bottom"><b>on_arg_
 <tr class="memitem:a0d7bcf166939fea3198891cd0e574997"><td class="memItemLeft" align="right" valign="top"><a id="a0d7bcf166939fea3198891cd0e574997"></a>
 FMT_CONSTEXPR void&#160;</td><td class="memItemRight" valign="bottom"><b>on_replacement_field</b> (const Char *)</td></tr>
 <tr class="separator:a0d7bcf166939fea3198891cd0e574997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a70b378e351e03f01390d56b5aaf5c8"><td class="memItemLeft" align="right" valign="top"><a id="a0a70b378e351e03f01390d56b5aaf5c8"></a>
-FMT_CONSTEXPR const Char *&#160;</td><td class="memItemRight" valign="bottom"><b>on_format_specs</b> (<a class="el" href="classinternal_1_1null__terminating__iterator.html">iterator</a> it)</td></tr>
-<tr class="separator:a0a70b378e351e03f01390d56b5aaf5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58cc5258709ff65992f15b42eb53259"><td class="memItemLeft" align="right" valign="top"><a id="ab58cc5258709ff65992f15b42eb53259"></a>
+FMT_CONSTEXPR const Char *&#160;</td><td class="memItemRight" valign="bottom"><b>on_format_specs</b> (const Char *begin, const Char *)</td></tr>
+<tr class="separator:ab58cc5258709ff65992f15b42eb53259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4436018134529c7b630b05bef2342b89"><td class="memItemLeft" align="right" valign="top"><a id="a4436018134529c7b630b05bef2342b89"></a>
 FMT_CONSTEXPR void&#160;</td><td class="memItemRight" valign="bottom"><b>on_error</b> (const char *message)</td></tr>
 <tr class="separator:a4436018134529c7b630b05bef2342b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,9 +152,9 @@ FMT_CONSTEXPR void&#160;</td><td class="memItemRight" valign="bottom"><b>check_a
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab2aa60594c3beb4f2480013705d73b1c"><td class="memItemLeft" align="right" valign="top"><a id="ab2aa60594c3beb4f2480013705d73b1c"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>arg_id_</b></td></tr>
-<tr class="separator:ab2aa60594c3beb4f2480013705d73b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e3aaac05e783de45281596710d2c4a"><td class="memItemLeft" align="right" valign="top"><a id="a63e3aaac05e783de45281596710d2c4a"></a>
+unsigned&#160;</td><td class="memItemRight" valign="bottom"><b>arg_id_</b></td></tr>
+<tr class="separator:a63e3aaac05e783de45281596710d2c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a539bd0617fff9adc0c783e4c517c851c"><td class="memItemLeft" align="right" valign="top"><a id="a539bd0617fff9adc0c783e4c517c851c"></a>
 <a class="el" href="classbasic__parse__context.html">parse_context_type</a>&#160;</td><td class="memItemRight" valign="bottom"><b>context_</b></td></tr>
 <tr class="separator:a539bd0617fff9adc0c783e4c517c851c"><td class="memSeparator" colspan="2">&#160;</td></tr>

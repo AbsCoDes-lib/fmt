@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['spec_5fhandler',['spec_handler',['../structformatter_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_period_01_4_00_01_char_01_4_1_1spec__handler.html',1,'formatter&lt; std::chrono::duration&lt; Rep, Period &gt;, Char &gt;']]],
   ['specs_5fchecker',['specs_checker',['../classinternal_1_1specs__checker.html',1,'internal']]],
   ['specs_5fhandler',['specs_handler',['../classinternal_1_1specs__handler.html',1,'internal']]],
   ['specs_5fsetter',['specs_setter',['../classinternal_1_1specs__setter.html',1,'internal']]],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['set',['set',['../classinternal_1_1basic__buffer.html#a0b603108f1aa614e64efaac6e081086d',1,'internal::basic_buffer']]],
   ['size',['size',['../structformat__to__n__result.html#a5d0924cddcfab39a1c38ff0e75cbe5bf',1,'format_to_n_result::size()'],['../classinternal_1_1basic__buffer.html#abc95713c3873c5820f10105fe7c7af93',1,'internal::basic_buffer::size()'],['../classbasic__string__view.html#a7fd9f4dcac1782259b0cd217af69d737',1,'basic_string_view::size()'],['../classformat__int.html#a644fe6f2d0505d48ff08ab22448b5069',1,'format_int::size()']]],
+  ['spec_5fhandler',['spec_handler',['../structformatter_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_period_01_4_00_01_char_01_4_1_1spec__handler.html',1,'formatter&lt; std::chrono::duration&lt; Rep, Period &gt;, Char &gt;']]],
   ['specs_5fchecker',['specs_checker',['../classinternal_1_1specs__checker.html',1,'internal']]],
   ['specs_5fhandler',['specs_handler',['../classinternal_1_1specs__handler.html',1,'internal']]],
   ['specs_5fsetter',['specs_setter',['../classinternal_1_1specs__setter.html',1,'internal']]],

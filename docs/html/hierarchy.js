@@ -68,7 +68,9 @@ var hierarchy =
     [ "internal::arg_formatter_base< Range >::char_writer", "structinternal_1_1arg__formatter__base_1_1char__writer.html", null ],
     [ "internal::checked< T >", "structinternal_1_1checked.html", null ],
     [ "internal::chrono_format_checker", "structinternal_1_1chrono__format__checker.html", null ],
-    [ "internal::chrono_formatter< FormatContext >", "structinternal_1_1chrono__formatter.html", null ],
+    [ "internal::chrono_formatter< FormatContext, OutputIt >", "structinternal_1_1chrono__formatter.html", null ],
+    [ "internal::color_type", "structinternal_1_1color__type.html", null ],
+    [ "internal::color_type::color_union", "unioninternal_1_1color__type_1_1color__union.html", null ],
     [ "compile_string", "structcompile__string.html", null ],
     [ "internal::conditional_helper< Ts >", "structinternal_1_1conditional__helper.html", null ],
     [ "internal::context_base< OutputIt, Context, Char >", "classinternal_1_1context__base.html", null ],
@@ -163,8 +165,8 @@ var hierarchy =
     [ "formatter< std::tm, Char >", "structformatter_3_01std_1_1tm_00_01_char_01_4.html", null ],
     [ "formatter< T, Char, typename std::enable_if< internal::format_type< typename buffer_context< Char >::type, T >::value >::type >", "structformatter_3_01_t_00_01_char_00_01typename_01std_1_1enable__if_3_01internal_1_1format__typeef2b7d59b5441fbead72290e06693dea.html", null ],
     [ "formatter< TupleT, Char, typename std::enable_if< fmt::is_tuple_like< TupleT >::value >::type >", "structformatter_3_01_tuple_t_00_01_char_00_01typename_01std_1_1enable__if_3_01fmt_1_1is__tuple__a8a88f793f5f612c28a21643fc88182d.html", null ],
-    [ "basic_printf_context< OutputIt, Char, ArgFormatter >::formatter_type< T >", "structbasic__printf__context_1_1formatter__type.html", null ],
     [ "basic_format_context< OutputIt, Char >::formatter_type< T >", "structbasic__format__context_1_1formatter__type.html", null ],
+    [ "basic_printf_context< OutputIt, Char, ArgFormatter >::formatter_type< T >", "structbasic__printf__context_1_1formatter__type.html", null ],
     [ "formatting_base< Char >", "structformatting__base.html", [
       [ "formatting_range< Char, Enable >", "structformatting__range.html", null ],
       [ "formatting_range< Char >", "structformatting__range.html", null ],
@@ -271,6 +273,7 @@ var hierarchy =
     [ "internal::result_of< typename >", "structinternal_1_1result__of.html", null ],
     [ "internal::result_of< F(Args...)>", "structinternal_1_1result__of_3_01_f_07_args_8_8_8_08_4.html", null ],
     [ "rgb", "structrgb.html", null ],
+    [ "formatter< std::chrono::duration< Rep, Period >, Char >::spec_handler", "structformatter_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_period_01_4_00_01_char_01_4_1_1spec__handler.html", null ],
     [ "internal::specs_setter< Char >", "classinternal_1_1specs__setter.html", null ],
     [ "internal::specs_setter< Context::char_type >", "classinternal_1_1specs__setter.html", [
       [ "internal::specs_handler< Context >", "classinternal_1_1specs__handler.html", null ]

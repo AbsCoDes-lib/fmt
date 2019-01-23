@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structinternal_1_1basic__data.html" title="internal::basic_data\&lt; T \&gt;" alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classbasic__memory__buffer.html" title="A dynamically growing memory buffer for trivially copyable/constructible types with the first SIZE el..." alt="" coords="225,23,373,65"/>
+<area shape="rect" id="node3" href="$classinternal_1_1basic__buffer.html" title="A contiguous memory buffer with an optional growing ability. " alt="" coords="5,56,177,83"/>
 </map>

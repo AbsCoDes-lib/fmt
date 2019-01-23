@@ -26,6 +26,7 @@ var annotated_dup =
       [ "checked_args", "structinternal_1_1checked__args.html", "structinternal_1_1checked__args" ],
       [ "chrono_format_checker", "structinternal_1_1chrono__format__checker.html", "structinternal_1_1chrono__format__checker" ],
       [ "chrono_formatter", "structinternal_1_1chrono__formatter.html", "structinternal_1_1chrono__formatter" ],
+      [ "color_type", "structinternal_1_1color__type.html", "structinternal_1_1color__type" ],
       [ "conditional_helper", "structinternal_1_1conditional__helper.html", null ],
       [ "container_buffer", "classinternal_1_1container__buffer.html", "classinternal_1_1container__buffer" ],
       [ "context_base", "classinternal_1_1context__base.html", "classinternal_1_1context__base" ],

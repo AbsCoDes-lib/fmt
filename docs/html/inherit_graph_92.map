@@ -1,8 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structinternal_1_1error__handler.html" title="internal::error_handler" alt="" coords="5,143,152,170"/>
-<area shape="rect" id="node2" href="$classbasic__parse__context.html" title="basic_parse_context\l\&lt; Char \&gt;" alt="" coords="228,5,371,47"/>
-<area shape="rect" id="node3" href="$structdynamic__formatter_1_1null__handler.html" title="dynamic_formatter\&lt;\l Char \&gt;::null_handler" alt="" coords="228,71,371,112"/>
-<area shape="rect" id="node4" href="$structformat__handler.html" title="format_handler\&lt; ArgFormatter,\l Char, Context \&gt;" alt="" coords="200,136,399,177"/>
-<area shape="rect" id="node5" href="$structinternal_1_1arg__formatter__base_1_1char__spec__handler.html" title="internal::arg_formatter\l_base\&lt; Range \&gt;::char_spec\l_handler" alt="" coords="206,202,393,258"/>
-<area shape="rect" id="node6" href="$structinternal_1_1arg__formatter__base_1_1cstring__spec__handler.html" title="internal::arg_formatter\l_base\&lt; Range \&gt;::cstring\l_spec_handler" alt="" coords="217,282,382,338"/>
+<area shape="rect" id="node1" href="$classinternal_1_1decimal__formatter.html" title="internal::decimal_formatter" alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classinternal_1_1decimal__formatter__null.html" title="internal::decimal_formatter_null" alt="" coords="228,5,431,32"/>
 </map>

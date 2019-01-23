@@ -1,0 +1,6 @@
+<map id="formatter&lt; std::chrono::duration&lt; Rep, Period &gt;, Char &gt;::spec_handler" name="formatter&lt; std::chrono::duration&lt; Rep, Period &gt;, Char &gt;::spec_handler">
+<area shape="rect" id="node2" href="$structformatter.html" title="{formatter\&lt; T, Char,\l Enable \&gt;\n||+ parse()\l+ format()\l}" alt="" coords="5,477,136,584"/>
+<area shape="rect" id="node3" href="$classbasic__parse__context.html" title="{basic_parse_context\l\&lt; Char \&gt;\n|&#45; format_str_\l&#45; next_arg_id_\l|+ basic_parse_context()\l+ begin()\l+ end()\l+ advance_to()\l+ next_arg_id()\l+ check_arg_id()\l+ check_arg_id()\l+ on_error()\l+ error_handler()\l}" alt="" coords="160,419,323,643"/>
+<area shape="rect" id="node4" href="$structinternal_1_1error__handler.html" title="{internal::error_handler\n||+ error_handler()\l+ error_handler()\l+ on_error()\l}" alt="" coords="112,191,259,297"/>
+<area shape="rect" id="node5" href="$classbasic__parse__context.html" title="{basic_parse_context\l\&lt; Char, ErrorHandler \&gt;\n|&#45; format_str_\l&#45; next_arg_id_\l|+ basic_parse_context()\l+ begin()\l+ end()\l+ advance_to()\l+ next_arg_id()\l+ check_arg_id()\l+ check_arg_id()\l+ on_error()\l+ error_handler()\l}" alt="" coords="283,132,445,356"/>
+</map>

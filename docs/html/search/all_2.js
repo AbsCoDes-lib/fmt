@@ -17,6 +17,8 @@ var searchData=
   ['chrono_5fformat_5fchecker',['chrono_format_checker',['../structinternal_1_1chrono__format__checker.html',1,'internal']]],
   ['chrono_5fformatter',['chrono_formatter',['../structinternal_1_1chrono__formatter.html',1,'internal']]],
   ['clear',['clear',['../classinternal_1_1basic__buffer.html#a9a18325765c5245d1861874512355b72',1,'internal::basic_buffer']]],
+  ['color_5ftype',['color_type',['../structinternal_1_1color__type.html',1,'internal']]],
+  ['color_5funion',['color_union',['../unioninternal_1_1color__type_1_1color__union.html',1,'internal::color_type']]],
   ['compile_5fstring',['compile_string',['../structcompile__string.html',1,'']]],
   ['conditional_5fhelper',['conditional_helper',['../structinternal_1_1conditional__helper.html',1,'internal']]],
   ['container_5fbuffer',['container_buffer',['../classinternal_1_1container__buffer.html',1,'internal']]],

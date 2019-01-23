@@ -7,7 +7,7 @@ var structbasic__writer_1_1int__writer =
     [ "unsigned_type", "structbasic__writer_1_1int__writer.html#af80995777f5b3e3615f1459388d3ebdc", null ],
     [ "SEP_SIZE", "structbasic__writer_1_1int__writer.html#ad22ac0925ae543c8b82fd9b6fbc88aaca889ae026eb5b353f37d9431423671372", null ],
     [ "int_writer", "structbasic__writer_1_1int__writer.html#a5546d36ce6023e631a03d3429e65e80b", null ],
-    [ "count_digits", "structbasic__writer_1_1int__writer.html#aa3fc964cfb2498931acea229a6b56dc6", null ],
+    [ "count_digits", "structbasic__writer_1_1int__writer.html#a301234d8864b6532494049729522230b", null ],
     [ "get_prefix", "structbasic__writer_1_1int__writer.html#a0a99312467bdd8a2a54a78d558a9a9ef", null ],
     [ "on_bin", "structbasic__writer_1_1int__writer.html#a3d83fb1ad04e3ff70bb14e3c871251b3", null ],
     [ "on_dec", "structbasic__writer_1_1int__writer.html#a5c6ba3b0dd5bdcc5426f1728a110e398", null ],

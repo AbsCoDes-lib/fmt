@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf48e39fa8f224aad0d3e1da992d505d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classbasic__writer.html#adf48e39fa8f224aad0d3e1da992d505d">basic_writer</a> (Range out, <a class="el" href="classinternal_1_1locale__ref.html">internal::locale_ref</a> loc=<a class="el" href="classinternal_1_1locale__ref.html">internal::locale_ref</a>())</td></tr>
 <tr class="memdesc:adf48e39fa8f224aad0d3e1da992d505d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <code><a class="el" href="classbasic__writer.html" title="This template provides operations for formatting and writing data into a character range...">basic_writer</a></code> object.  <a href="#adf48e39fa8f224aad0d3e1da992d505d">More...</a><br /></td></tr>
 <tr class="separator:adf48e39fa8f224aad0d3e1da992d505d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb203681ca5e1d2b5fe1d2a7bbd7996"><td class="memItemLeft" align="right" valign="top"><a id="abeb203681ca5e1d2b5fe1d2a7bbd7996"></a>
+iterator&#160;</td><td class="memItemRight" valign="bottom"><b>out</b> () const</td></tr>
+<tr class="separator:abeb203681ca5e1d2b5fe1d2a7bbd7996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d44923710a19cdeb09ca5e834641ea8"><td class="memItemLeft" align="right" valign="top"><a id="a1d44923710a19cdeb09ca5e834641ea8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (int value)</td></tr>
 <tr class="separator:a1d44923710a19cdeb09ca5e834641ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,10 +184,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (wchar_t va
 <tr class="memitem:ac6bb2fa0a1325a20d4288b66378fb4dd"><td class="memItemLeft" align="right" valign="top"><a id="ac6bb2fa0a1325a20d4288b66378fb4dd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (<a class="el" href="classbasic__string__view.html">wstring_view</a> value)</td></tr>
 <tr class="separator:ac6bb2fa0a1325a20d4288b66378fb4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7de1c8cb6863512a58d98f9f8e703c9"><td class="memTemplParams" colspan="2"><a id="ab7de1c8cb6863512a58d98f9f8e703c9"></a>
-template&lt;typename... FormatSpecs&gt; </td></tr>
-<tr class="memitem:ab7de1c8cb6863512a58d98f9f8e703c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write</b> (<a class="el" href="classbasic__string__view.html">basic_string_view</a>&lt; char_type &gt; str, FormatSpecs... specs)</td></tr>
-<tr class="separator:ab7de1c8cb6863512a58d98f9f8e703c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3396f1d61f77e4a3c2e12062f206a5c"><td class="memTemplParams" colspan="2"><a id="ab3396f1d61f77e4a3c2e12062f206a5c"></a>
+template&lt;typename Char &gt; </td></tr>
+<tr class="memitem:ab3396f1d61f77e4a3c2e12062f206a5c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write</b> (const Char *s, std::size_t size, const <a class="el" href="structalign__spec.html">align_spec</a> &amp;spec)</td></tr>
+<tr class="separator:ab3396f1d61f77e4a3c2e12062f206a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a616e9e28d4395a215f7844b983c6bee5"><td class="memTemplParams" colspan="2"><a id="a616e9e28d4395a215f7844b983c6bee5"></a>
+template&lt;typename Char &gt; </td></tr>
+<tr class="memitem:a616e9e28d4395a215f7844b983c6bee5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write</b> (<a class="el" href="classbasic__string__view.html">basic_string_view</a>&lt; Char &gt; s, const <a class="el" href="structbasic__format__specs.html">format_specs</a> &amp;spec=<a class="el" href="structbasic__format__specs.html">format_specs</a>())</td></tr>
+<tr class="separator:a616e9e28d4395a215f7844b983c6bee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8492113422d70a65c845000e9f964a0"><td class="memTemplParams" colspan="2"><a id="ae8492113422d70a65c845000e9f964a0"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae8492113422d70a65c845000e9f964a0"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; std::is_same&lt; T, void &gt;::value &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write</b> (const T *p)</td></tr>
@@ -204,9 +211,6 @@ Private Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:abeb203681ca5e1d2b5fe1d2a7bbd7996"><td class="memItemLeft" align="right" valign="top"><a id="abeb203681ca5e1d2b5fe1d2a7bbd7996"></a>
-iterator&#160;</td><td class="memItemRight" valign="bottom"><b>out</b> () const</td></tr>
-<tr class="separator:abeb203681ca5e1d2b5fe1d2a7bbd7996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f757a132d9ea92a0925bb6be54a0f39"><td class="memItemLeft" align="right" valign="top"><a id="a5f757a132d9ea92a0925bb6be54a0f39"></a>
 auto&#160;</td><td class="memItemRight" valign="bottom"><b>reserve</b> (std::size_t n) -&gt; decltype(internal::reserve(out_, n))</td></tr>
 <tr class="separator:a5f757a132d9ea92a0925bb6be54a0f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,10 +218,10 @@ auto&#160;</td><td class="memItemRight" valign="bottom"><b>reserve</b> (std::siz
 template&lt;typename F &gt; </td></tr>
 <tr class="memitem:a94ae0db51517499be470a28f9cefce97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_padded</b> (const <a class="el" href="structalign__spec.html">align_spec</a> &amp;spec, F &amp;&amp;f)</td></tr>
 <tr class="separator:a94ae0db51517499be470a28f9cefce97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27be9108796e7a3121861fed1d7d2972"><td class="memTemplParams" colspan="2"><a id="a27be9108796e7a3121861fed1d7d2972"></a>
+<tr class="memitem:ae420f24eee4064d2ec504d8cdccf8ce0"><td class="memTemplParams" colspan="2"><a id="ae420f24eee4064d2ec504d8cdccf8ce0"></a>
 template&lt;typename Spec , typename F &gt; </td></tr>
-<tr class="memitem:a27be9108796e7a3121861fed1d7d2972"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_int</b> (unsigned num_digits, <a class="el" href="classbasic__string__view.html">string_view</a> prefix, const Spec &amp;spec, F f)</td></tr>
-<tr class="separator:a27be9108796e7a3121861fed1d7d2972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae420f24eee4064d2ec504d8cdccf8ce0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_int</b> (int num_digits, <a class="el" href="classbasic__string__view.html">string_view</a> prefix, const Spec &amp;spec, F f)</td></tr>
+<tr class="separator:ae420f24eee4064d2ec504d8cdccf8ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad882a06cecfd0e38bbb62443e73c0f0e"><td class="memTemplParams" colspan="2"><a id="ad882a06cecfd0e38bbb62443e73c0f0e"></a>
 template&lt;typename Int &gt; </td></tr>
 <tr class="memitem:ad882a06cecfd0e38bbb62443e73c0f0e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_decimal</b> (Int value)</td></tr>
@@ -230,14 +234,6 @@ template&lt;typename T , typename Spec &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a7cd73e88d5560b9f8fbc407ababceea6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_double</b> (T value, const <a class="el" href="structbasic__format__specs.html">format_specs</a> &amp;spec)</td></tr>
 <tr class="separator:a7cd73e88d5560b9f8fbc407ababceea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1e00571efbea72a5ae82c11e39ddcba"><td class="memTemplParams" colspan="2"><a id="ab1e00571efbea72a5ae82c11e39ddcba"></a>
-template&lt;typename Char &gt; </td></tr>
-<tr class="memitem:ab1e00571efbea72a5ae82c11e39ddcba"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_str</b> (const Char *s, std::size_t size, const <a class="el" href="structalign__spec.html">align_spec</a> &amp;spec)</td></tr>
-<tr class="separator:ab1e00571efbea72a5ae82c11e39ddcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac29ad125f52357c72a4dd0d6ba8fbe23"><td class="memTemplParams" colspan="2"><a id="ac29ad125f52357c72a4dd0d6ba8fbe23"></a>
-template&lt;typename Char &gt; </td></tr>
-<tr class="memitem:ac29ad125f52357c72a4dd0d6ba8fbe23"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>write_str</b> (<a class="el" href="classbasic__string__view.html">basic_string_view</a>&lt; Char &gt; str, const <a class="el" href="structbasic__format__specs.html">format_specs</a> &amp;spec)</td></tr>
-<tr class="separator:ac29ad125f52357c72a4dd0d6ba8fbe23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
